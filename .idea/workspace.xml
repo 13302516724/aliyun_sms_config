@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f367e44-9bd8-46d4-a907-c552e9e5ca07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/ServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/AliSms.php" afterPath="$PROJECT_DIR$/config/AliSms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="aliyun_sms_config.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="AliSms.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/AliSms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22753128">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.523322">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#31#59#0#PHP" expanded="true" />
               </folding>
@@ -218,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/AliSms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22753128">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.523322">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="e#31#59#0#PHP" expanded="true" />
           </folding>
