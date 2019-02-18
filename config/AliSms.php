@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Mrgoon\AliSms;
+namespace Zzx\config;
 
-use Mrgoon\AliyunSmsSdk\Autoload;
-use Mrgoon\AliyunSmsSdk\DefaultAcsClient;
-use Mrgoon\AliyunSmsSdk\Profile\DefaultProfile;
-use Mrgoon\Dysmsapi\Request\V20170525\SendSmsRequest;
+use Zzx\Aliyun\Sms\Autoload;
+use Zzx\Aliyun\Sms\DefaultAcsClient;
+use Zzx\Aliyun\Sms\Profile\DefaultProfile;
+use Zzx\Aliyun\Api\Request\V20170525\SendSmsRequest;
 
 class AliSms {
     public function sendSms($to, $template_code, $data, Array $config = null, $outId = '')
@@ -16,11 +16,12 @@ class AliSms {
             $accessKeyId = $config['access_key'];
             $accessKeySecret = $config['access_secret'];
             $signName = $config['sign_name'];
-        } else {
-            $accessKeyId = config('aliyunsms.access_key');
-            $accessKeySecret = config('aliyunsms.access_secret');
-            $signName = config('aliyunsms.sign_name');
         }
+//        else {
+//            $accessKeyId = config('aliyunsms.access_key');
+//            $accessKeySecret = config('aliyunsms.access_secret');
+//            $signName = config('aliyunsms.sign_name');
+//        }
 
         //短信API产品名
         $product = "Dysmsapi";
