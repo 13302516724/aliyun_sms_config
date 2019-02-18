@@ -1,0 +1,20 @@
+{
+    "name": "zzx/aliyun_sms_config",
+    "description": "config",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhaoxin",
+            "email": "1064059707@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3",
+		"zzx/aliyun_sms": ">=1.0.0"
+	},
+	  "autoload": {
+		"psr-4": {"Zzx\\config\\": "config/"}
+	}
+}
