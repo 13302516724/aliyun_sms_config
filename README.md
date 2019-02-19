@@ -1,5 +1,5 @@
 # aliyun_sms_config
-安装短信服务vendor类
+安装短信服务vendor类。
 # 使用方法（php）
 引入 use Zzx\config\AliSms;  
 实例化  new AliSms();  
